@@ -1,0 +1,193 @@
+Cas 1 — Quatre colonnes égales 
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 bg-primary text-white border border-white p-4 text-center">Bloc 1</div>
+        <div class="col-md-3 bg-success text-white border border-white p-4 text-center">Bloc 2</div>
+        <div class="col-md-3 bg-warning text-dark border border-white p-4 text-center">Bloc 3</div>
+        <div class="col-md-3 bg-danger text-white border border-white p-4 text-center">Bloc 4</div>
+    </div>
+</div>
+
+Cas 2 — Trois colonnes inégales : 6, 3 et 3
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 bg-primary text-white p-4 text-center">6 colonnes</div>
+        <div class="col-md-3 bg-success text-white p-4 text-center">3 colonnes</div>
+        <div class="col-md-3 bg-warning text-dark p-4 text-center">3 colonnes</div>
+    </div>
+</div>
+
+Cas 3 — Deux lignes avec des répartitions différentes
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 bg-primary text-white p-3">Bloc 1</div>
+        <div class="col-md-4 bg-success text-white p-3">Bloc 2</div>
+        <div class="col-md-4 bg-warning text-dark p-3">Bloc 3</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 bg-danger text-white p-3">Bloc 4</div>
+        <div class="col-md-6 bg-info text-dark p-3">Bloc 5</div>
+    </div>
+</div>
+
+Cas 4 — Barre latérale et contenu principal
+<div class="container">
+    <div class="row">
+        <aside class="col-md-3 bg-success text-white p-4">
+            Barre latérale
+        </aside>
+
+        <main class="col-md-9 bg-primary text-white p-4">
+            Contenu principal
+        </main>
+    </div>
+</div>
+
+Cas 5 — Deux barres latérales
+<div class="container">
+    <div class="row">
+        <aside class="col-md-3 bg-success text-white p-3">Gauche</aside>
+        <main class="col-md-6 bg-primary text-white p-3">Contenu principal</main>
+        <aside class="col-md-3 bg-secondary text-white p-3">Droite</aside>
+    </div>
+</div>
+
+Cas 6 — Trois colonnes responsives
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 bg-primary text-white p-4">Bloc 1</div>
+        <div class="col-12 col-md-4 bg-success text-white p-4">Bloc 2</div>
+        <div class="col-12 col-md-4 bg-warning text-dark p-4">Bloc 3</div>
+    </div>
+</div>
+
+Cas 7 — Deux colonnes de largeur 8 et 4
+<div class="container">
+    <div class="row">
+        <main class="col-12 col-md-8 bg-primary text-white p-4">
+            Contenu principal
+        </main>
+
+        <aside class="col-12 col-md-4 bg-warning text-dark p-4">
+            Barre latérale
+        </aside>
+    </div>
+</div>
+
+Cas 8 — Une colonne contenant deux sous-colonnes
+<div class="container">
+    <div class="row">
+        <div class="col-12 bg-secondary text-white p-3">
+            Colonne extérieure
+
+            <div class="row">
+                <div class="col-6 bg-primary text-white p-3">A</div>
+                <div class="col-6 bg-success text-white p-3">B</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+Cas 9 — Plusieurs niveaux d'imbrication
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 bg-primary text-white p-3">Zone A</div>
+
+        <div class="col-md-6 bg-success text-white p-3">
+            Zone B
+
+            <div class="row">
+                <div class="col-6 bg-warning text-dark p-3">B1</div>
+                <div class="col-6 bg-info text-dark p-3">B2</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+Cas 10 — Tableau de bord
+<div class="container">
+    <header class="row">
+        <div class="col-12 bg-primary text-white p-3">En-tête</div>
+    </header>
+
+    <div class="row">
+        <nav class="col-md-3 bg-success text-white p-3">Menu</nav>
+
+        <main class="col-md-9 bg-secondary text-white p-3">
+            Zone principale
+
+            <div class="row">
+                <div class="col-6 bg-warning text-dark p-3">Carte 1</div>
+                <div class="col-6 bg-info text-dark p-3">Carte 2</div>
+            </div>
+        </main>
+    </div>
+</div>
+
+Cas 11 — De 1 à 2, 3 puis 4 colonnes
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-primary text-white p-3">1</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-success text-white p-3">2</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-warning text-dark p-3">3</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-danger text-white p-3">4</div>
+    </div>
+</div>
+
+Cas 12 — Galerie de six blocs : 2, 3 puis 6 colonnes
+<div class="container">
+    <div class="row">
+        <div class="col-6 col-md-4 col-lg-2 bg-primary text-white p-3">1</div>
+        <div class="col-6 col-md-4 col-lg-2 bg-success text-white p-3">2</div>
+        <div class="col-6 col-md-4 col-lg-2 bg-warning text-dark p-3">3</div>
+        <div class="col-6 col-md-4 col-lg-2 bg-danger text-white p-3">4</div>
+        <div class="col-6 col-md-4 col-lg-2 bg-info text-dark p-3">5</div>
+        <div class="col-6 col-md-4 col-lg-2 bg-secondary text-white p-3">6</div>
+    </div>
+</div>
+
+Cas 13 — Nombre de lignes variable
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 bg-primary text-white p-3">1</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-success text-white p-3">2</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-warning text-dark p-3">3</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-danger text-white p-3">4</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-info text-dark p-3">5</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-secondary text-white p-3">6</div>
+    </div>
+</div>
+
+Cas 14 — Douze cartes : 1, 2, 3 puis 6 colonnes
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-primary text-white p-3">1</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-success text-white p-3">2</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-warning text-dark p-3">3</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-danger text-white p-3">4</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-info text-dark p-3">5</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-secondary text-white p-3">6</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-primary text-white p-3">7</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-success text-white p-3">8</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-warning text-dark p-3">9</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-danger text-white p-3">10</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-info text-dark p-3">11</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 bg-secondary text-white p-3">12</div>
+    </div>
+</div>
+
+Cas 15 — Grille imbriquée responsive
+<div class="container">
+    <div class="row">
+        <main class="col-12 bg-secondary text-white p-3">
+            Zone principale
+
+            <div class="row">
+                <div class="col-6 col-md-4 bg-primary text-white p-3">A</div>
+                <div class="col-6 col-md-4 bg-success text-white p-3">B</div>
+                <div class="col-6 col-md-4 bg-warning text-dark p-3">C</div>
+            </div>
+        </main>
+    </div>
+</div>
